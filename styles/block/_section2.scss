@@ -1,0 +1,13 @@
+.hero2 {
+    width: 100vw;
+    height: 30vh;
+
+    @include desktop {
+        height: 90vh;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
